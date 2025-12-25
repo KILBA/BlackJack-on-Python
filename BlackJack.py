@@ -98,7 +98,7 @@ def playerloop():
       DoubleDown(PlayerX)
       print(PlayerX.player_deck)
       break
-    x = input("What do you wanna play")
+    x = input("What do you wanna play? ")
 
 def dealerloop():
   while sum(DealerX.dealer_deck) < 17:
